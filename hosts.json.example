@@ -1,0 +1,9 @@
+[
+  {
+    "name": "esxi-host-1",
+    "ip": "0.0.0.0",
+    "username": "root",
+    "password": "",
+    "private_key": ""
+  }
+]
