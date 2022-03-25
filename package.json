@@ -9,6 +9,8 @@
   "author": "Mateusz \"Z4NR34L\" Janota <software@zanreal.pl> (https://www.zanreal.pl/)",
   "license": "ISC",
   "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
     "ever-ups-adapter": "^2022.0.5",
     "node-ssh": "^12.0.3"
   }
