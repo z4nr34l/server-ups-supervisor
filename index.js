@@ -133,7 +133,7 @@ async function sendWebhookStateChangeMessage(oldState, currentState, batteryPerc
 function emergencyPowerOff() {
   hosts.every(host => {
     console.log(`Powering-off host: ${host.name} (${host.ip_address})`)
-    sendWebhookHostPoweroffMessage(host.ip_address)
+    sendWebhookHostPoweroffMessage(host.name)
     let sshConfig = {}
     if (host.private_key) {
       sshConfig = {
