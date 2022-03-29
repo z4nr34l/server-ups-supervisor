@@ -1,6 +1,6 @@
 {
   "name": "esxi-ups-supervisor",
-  "version": "2022.0.1",
+  "version": "2022.0.2",
   "description": "UPS state monitor for ESXi's safe power-off",
   "main": "index.js",
   "scripts": {
